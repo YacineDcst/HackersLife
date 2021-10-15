@@ -151,12 +151,17 @@ You rolled a 1d20 and got &lt;&lt;print _diceval&gt;&gt;
 	The collaboration starts well but you gave too much liberty to the grey hat hacker and he saw an opportunity to hack and to create ransomware. The company really needs the data so it paid and you got dismissed because of the seriousness of the events. You lost all the money you had because the insurance representative refused to take the charges.
 	
 	[[Continue &gt; -&gt;E2]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="E1" tags="" position="2161,661" size="100,100">!!END
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="E1" tags="" position="2161,661" size="100,100">&lt;&lt;cacheaudio &quot;win&quot; se/win.mp3&gt;&gt;
+&lt;&lt;audio &quot;win&quot; play&gt;&gt;
+
+!!END
 
 You earned a lot of money and reached your objective of 150k $. You are able to leave your mother’s house. 
 You start looking for an apartment in New York.
-A few weeks later, you take a flight to the US and move into your house to start your new life !
-</tw-passagedata><tw-passagedata pid="11" name="E2" tags="" position="2163,547" size="100,100">!!END
+A few weeks later, you take a flight to the US and move into your house to start your new life !</tw-passagedata><tw-passagedata pid="11" name="E2" tags="" position="2163,547" size="100,100">&lt;&lt;cacheaudio &quot;lost&quot; se/lost.mp3&gt;&gt;
+&lt;&lt;audio &quot;lost&quot; play&gt;&gt;
+
+!!END
 
 You have not reached your goals and see your dream slipping away.
 You are forced to continue living with your mother for a long time.
@@ -167,7 +172,7 @@ The atmosphere in your home has also deteriorated
 
 You rolled a 1d20 and got &lt;&lt;print _diceval&gt;&gt;
 
-&lt;&lt;if _diveval lte 18&gt;&gt;
+&lt;&lt;if _diceval lte 18&gt;&gt;
 	[[Continue &gt; -&gt;E3-T]]
 &lt;&lt;else&gt;&gt;
 	[[Continue &gt; -&gt;S3-B-2]]
@@ -217,6 +222,7 @@ You rolled a 1d20 and got &lt;&lt;print _diceval&gt;&gt;
 	You failed to hack them and just lost time.
 &lt;&lt;/if&gt;&gt;
 	[[Continue &gt; -&gt;E1]] </tw-passagedata><tw-passagedata pid="22" name="E3" tags="" position="2158,431" size="100,100">!!FIN
+
 &lt;&lt;set _diceval to random(1, 20)&gt;&gt;
 
 You rolled a 1d20 and got &lt;&lt;print _diceval&gt;&gt;
